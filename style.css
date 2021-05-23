@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 1200px;
+    max-width: 100%;
+}
+.container .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4d4d4d;
+   
+
+}
+.navbar h2 {
+    background-color: #F00;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 15px;
+    position: relative;
+    width: 200px;
+
+}
+.navbar  button {
+    position: absolute;
+    top: 11px;
+    left: 79.6%;
+    width: 111px;
+    height: 35px;
+    background-color: red;
+    color: #FFF;
+    border: navajowhite;
+    font-weight: bold;
+
+}
+.navbar span{
+    position: absolute;
+    top: 19px;
+    left: 67.6%;
+    color: #FFF;
+}
+.sidebar {
+    width: 200px;
+    background: #202020;
+    
+}
+.sidebar img {
+    width: 199px;
+    height: 125px;
+    background: #FFF;
+}
+.sidebar ul li, span {
+color: #fdfffd;
+margin:10px;
+}
+.dash {
+    position: absolute;
+    top: 58px;
+    left: 201px;
+    padding: 30px;
+    background: #f3f3f3;
+    width: 74%;
+    height: auto;
+    
+}
+.dash h1 {
+    color: red;
+}
+.dash p {
+    border-bottom: 2px solid #CCC;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.content  .material-icons  {
+    background-color: crimson;
+    border-radius: 50%;
+    padding: 17px;
+    width: 60px;
+    height: 51px;
+} 
+.portofolio {
+    display: flex;
+}
+.portofolio img {
+    max-width: 281px;
+    height: 216px;
+    margin-top: 30px;
+    border: 5px solid #CCC;
+    margin: 20px;
+    animation: scrolling 10s infinite;
+}
+.portofolio img:hover {
+    border: 1px solid #4d4d4d;
+}
+.po {
+    border-top: 2px solid #4d4d4d;
+    margin-top: 20px;
+}
